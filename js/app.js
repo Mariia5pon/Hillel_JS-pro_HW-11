@@ -34,3 +34,14 @@ task2.addEventListener('click', () => {
 
 // TASK 3
 
+function getRandomImage() {
+    const randomNumber = Math.floor(Math.random() * 9) + 1;
+    const imagePath = `./img/${randomNumber}.jpg`;
+    return imagePath;
+}
+const imageElement = document.getElementById('random-img');
+imageElement.src = getRandomImage();
+document.querySelector('.random-img-btn').addEventListener('click', () => {
+    imageElement.src = getRandomImage();
+});
+
