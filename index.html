@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+	      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Lora:wght@400;600;700&family=Poppins&family=Roboto:wght@400;500&display=swap"
+	      rel="stylesheet">
+	<link rel="stylesheet" href="./css/main.css">
+	<title>Lesson 11</title>
+</head>
+<body>
+<header>
+	<div class="container">
+		<div class="header_content">
+			<img src="./img/logo.png" alt="Logo">
+			<nav class="header_links">
+				<p>Homeworks :</p>
+				<a href="#sec-1">11.1. Pythagorean table</a>
+				<a href="#sec-2">11.2. Color change button</a>
+				<a href="#sec-3">11.3. Getting a random image</a>
+			</nav>
+		</div>
+	</div>
+</header>
+<main>
+	<section class="main-sec-1" id="sec-1">
+		<div class="main-sec-1_content container">
+			<div class="main-sec-1_text">
+				<h2>10.1. Pythagorean table</h2>
+				<h4>Print the Pythagorean table (10×10), the table should be created dynamically</h4>
+				<button onclick="getResultOfTask1()" class="btn">Go</button>
+				<h4 id="task-1_result"></h4>
+			</div>
+		</div>
+	</section>
+	<section class="main-sec-2" id="sec-2">
+		<div class="main-sec-2_content container">
+			<div class="main-sec-2_text">
+				<h2>10.2. Color change button</h2>
+				<h4>There is a block with text on the page and a button. When you click on the button, the text changes
+					color. When you click again, the previous color returns.</h4>
+				<button onclick="getResultOfTask2()" class="btn">Go</button>
+			</div>
+		</div>
+	</section>
+	<section class="main-sec-3" id="sec-3">
+		<div class="main-sec-3_content container">
+			<div class="main-sec-3_text">
+				<h2>10.3. Getting a random image</h2>
+				<h4>Put any images 1.jpg, 2.jpg, 3.jpg, 4.jpg, 5.jpg, 6.jpg, 7.jpg, 8.jpg, 9.jpg into the folder. Print
+					the image obtained at random (Math.random)</h4>
+				<button onclick="getResultOfTask3()" class="btn">Go</button>
+				<h4 id="task-3_result"></h4>
+			</div>
+		</div>
+	</section>
+</main>
+<footer></footer>
+<script src="./js/app.js"></script>
+</body>
+</html>
